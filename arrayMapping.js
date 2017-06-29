@@ -1,8 +1,9 @@
-function pythag(x, y) {
+//old function not needed
+/*function pythag(x, y) {
   var pResults = Math.pow(x, 2) + Math.pow(y, 2);
   var output = Math.sqrt(pResults);
   return output;
-}
+}*/
 
 var input = [
   { x: 3, y: 4 },

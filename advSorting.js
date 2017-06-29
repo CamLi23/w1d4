@@ -6,8 +6,18 @@ var students = [
 ];
 
 
-console.log(students.sort(/*custSort*/));
-
-function custSort() {
-
-}
+console.log(students.sort(function (a, b) {
+  if (a.name > b.name) {
+    return 1;
+  } else if(a.name < b.name) {
+    return -1;
+  } else {
+    if (a.age < b.age) {
+      return 1;
+    } else if (a.age > b.age) {
+      return -1;
+    } else {
+      return 0;
+    }
+  }
+}));

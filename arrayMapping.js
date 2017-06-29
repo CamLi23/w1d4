@@ -24,12 +24,9 @@ var result = input.map(function (x){
 
 
 
-  /*var result =
-  console.log(x, y);
-  console.log(result);
-});*/
 
 
-//console.log(result[0] === 5);
-/*console.log(result[1] === 13);
-console.log(result[2] === 17);*/
+
+console.log(result[0] === 5);
+console.log(result[1] === 13);
+console.log(result[2] === 17);
